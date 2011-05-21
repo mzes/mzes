@@ -1,0 +1,38 @@
+core = 7.x
+name = MZES
+description = Custom MZES install profile
+base = aid
+
+
+; Core
+
+;; Essentials
+
+;; Optional
+
+
+; Contrib
+
+;; Essential
+
+;; Media handling (preferred for media handling but not yet stable)
+
+;; Optional
+
+;; Developer
+
+;; TBD
+
+
+; Custom
+
+
+; Features
+dependencies[] = mzes_biblio
+dependencies[] = mzes_profile
+dependencies[] = mzes_project
+dependencies[] = mzes_defaults
+
+; Files
+files[] = mzes.profile
+
