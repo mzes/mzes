@@ -308,6 +308,19 @@ projects[BookMadeSimple][subdir] = contrib
 
 ; === Custom features ================================================================================================
 
+; AID Base Features
+projects[aid_base_features][type] = module
+projects[aid_base_features][download][type] = "git"
+projects[aid_base_features][download][url] = "git://github.com/dwabnitz/aid_base_features.git"
+projects[aid_base_features][version] = 1.0-dev
+projects[aid_base_features][subdir] = features
+
+; AID Extended Features
+projects[aid_extended_features][type] = module
+projects[aid_extended_features][download][type] = "git"
+projects[aid_extended_features][download][url] = "git://github.com/dwabnitz/aid_extended_features.git"
+projects[aid_extended_features][version] = 1.0-dev
+projects[aid_extended_features][subdir] = features
 
 ; MZES Features
 projects[mzes_features][type] = module
