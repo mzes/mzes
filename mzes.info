@@ -38,3 +38,55 @@ dependencies[] = mzes_project
 ; Files
 files[] = mzes.profile
 
+
+;; Test users
+
+users[test_admin][uid] = 2
+users[test_admin][name] = test_admin
+users[test_admin][mail] = test_admin@example.com
+users[test_admin][roles] = administrator
+users[test_admin][status] = 1
+
+users[test_web_editor][uid] = 3
+users[test_web_editor][name] = web_editor
+users[test_web_editor][mail] = web_editor@example.com
+users[test_web_editor][roles] = 'web editor'
+users[test_web_editor][status] = 1
+
+users[test_editor][uid] = 4
+users[test_editor][name] = editor
+users[test_editor][mail] = editor@example.com
+users[test_editor][roles] = editor
+users[test_editor][status] = 1
+
+users[test_staff][uid] = 5
+users[test_staff][name] = test_staff
+users[test_staff][mail] = test_staff@example.com
+users[test_staff][roles] = staff
+users[test_staff][status] = 1
+
+users[test_esser][uid] = 6
+users[test_esser][name] = test_esser
+users[test_esser][mail] = test_esser@example.com
+users[test_esser][roles] = staff
+users[test_esser][status] = 1
+
+users[test_becker][uid] = 7
+users[test_becker][name] = test_becker
+users[test_becker][mail] = test_becker@example.com
+users[test_becker][roles] = staff
+users[test_becker][status] = 1
+
+users[test_biedinger][uid] = 8
+users[test_biedinger][name] = test_biedinger
+users[test_biedinger][mail] = test_biedinger@example.com
+users[test_biedinger][roles] = staff
+users[test_biedinger][status] = 1
+
+users[test_klein][uid] = 9
+users[test_klein][name] = test_klein
+users[test_klein][mail] = test_klein@example.com
+users[test_klein][roles] = staff
+users[test_klein][status] = 1
+
+
