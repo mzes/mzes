@@ -28,12 +28,11 @@ base = aid
 
 
 ; Features
-dependencies[aid_defaults] = 0
 
 dependencies[] = mzes_biblio
 dependencies[] = mzes_profile
 dependencies[] = mzes_project
-dependencies[] = mzes_defaults
+;dependencies[] = mzes_defaults
 
 ; Files
 files[] = mzes.profile
