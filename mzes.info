@@ -1,6 +1,7 @@
 core = 7.x
 name = MZES
 description = Custom MZES install profile
+version = 0.x-dev
 base = aid
 
 
