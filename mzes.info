@@ -48,14 +48,14 @@ users[test_admin][roles] = administrator
 users[test_admin][status] = 1
 
 users[test_web_editor][uid] = 3
-users[test_web_editor][name] = web_editor
-users[test_web_editor][mail] = web_editor@example.com
+users[test_web_editor][name] = test_web_editor
+users[test_web_editor][mail] = test_web_editor@example.com
 users[test_web_editor][roles] = 'web editor'
 users[test_web_editor][status] = 1
 
 users[test_editor][uid] = 4
-users[test_editor][name] = editor
-users[test_editor][mail] = editor@example.com
+users[test_editor][name] = test_editor
+users[test_editor][mail] = test_editor@example.com
 users[test_editor][roles] = editor
 users[test_editor][status] = 1
 
