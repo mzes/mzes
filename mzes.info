@@ -36,7 +36,7 @@ dependencies[] = mzes_biblio
 dependencies[] = mzes_profile
 dependencies[] = mzes_project
 ;dependencies[] = mzes_defaults
-dependencies[] = mzes_defaults
+dependencies[] = mzes_demo_content
 
 ; Files
 files[] = mzes.profile
