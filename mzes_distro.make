@@ -16,3 +16,4 @@ includes[] = https://github.com/dwabnitz/aid/raw/master/distro.make
 projects[mzes][type] = profile
 projects[mzes][download][type] = git
 projects[mzes][download][url] = git@github.com:mzes/mzes.git
+projects[mzes][download][branch] = dev
