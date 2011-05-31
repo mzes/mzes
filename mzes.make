@@ -15,6 +15,17 @@ includes[aid] = https://github.com/dwabnitz/aid/raw/master/aid.make
 ; Essential
 ;;;;;;
 
+; Allows to take full control over how content is displayed using a drag and drop interface. Add custom view modes
+projects[ds][version] = 1.0
+projects[ds][subdir] = contrib
+
+projects[nodequeue][version] = 2.0-alpha1
+projects[nodequeue][subdir] = contrib
+
+; Enhanced control over the page title (in the &lt;head> tag).
+projects[page_title][version] = 2.4-beta1
+projects[page_title][subdir] = "contrib"
+
 ;;;;;;
 ; Optional (inclusion in profile to be decided)
 ;;;;;;
