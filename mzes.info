@@ -25,6 +25,7 @@ dependencies[] = ds
 dependencies[] = ds_extras
 dependencies[] = ds_search
 dependencies[] = entity
+;dependencies[] = entitycache
 dependencies[] = entity_token
 dependencies[] = page_title
 
