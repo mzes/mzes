@@ -19,6 +19,13 @@ includes[aid] = https://github.com/dwabnitz/aid/raw/master/aid.make
 projects[ds][version] = 1.0
 projects[ds][subdir] = contrib
 
+projects[entity][download][type] = module
+projects[entity][download][type] = "git"
+projects[entity][download][url] = "http://git.drupal.org/project/entity.git"
+projects[entity][download][branch] = 7.x-1.x
+;projects[entity][version] = 1.x-dev
+projects[entity][subdir] = contrib
+
 projects[nodequeue][version] = 2.0-alpha1
 projects[nodequeue][subdir] = contrib
 
