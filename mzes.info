@@ -42,8 +42,6 @@ dependencies[] = page_title
 dependencies[] = mzes_biblio
 dependencies[] = mzes_profile
 dependencies[] = mzes_project
-dependencies[] = mzes_field_permissions
-dependencies[] = mzes_panels_displays
 
 ; Files
 files[] = mzes.profile
