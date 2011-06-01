@@ -15,8 +15,8 @@ includes[aid] = https://github.com/dwabnitz/aid/raw/dev/aid.make
 ;;;;;;
 
 ; Allows to take full control over how content is displayed using a drag and drop interface. Add custom view modes
-;projects[ds][version] = 1.0
-;projects[ds][subdir] = contrib
+projects[ds][version] = 1.0
+projects[ds][subdir] = contrib
 
 projects[nodequeue][version] = 2.0-alpha1
 projects[nodequeue][subdir] = contrib
