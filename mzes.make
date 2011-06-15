@@ -27,6 +27,19 @@ projects[page_title][subdir] = "contrib"
 
 ;;;;;;
 ; Optional (inclusion in profile to be decided)
+
+projects[taxonomy_menu][version] = 1.x-dev
+projects[taxonomy_menu][subdir] = "contrib"
+
+projects[views_accordion][version] = 1.x-dev
+projects[views_accordion][subdir] = "contrib"
+
+projects[views_bulk_operations][version] = 3.x-dev
+projects[views_bulk_operations][subdir] = "contrib"
+
+projects[views_slideshow][version] = 3.x-dev
+projects[views_slideshow][subdir] = "contrib"
+
 ;;;;;;
 
 ; === Contrib projects not enabled (included but not enabled by default) =============================================
@@ -58,4 +71,19 @@ projects[mzes_features][subdir] = features
 
 ; === Themes =========================================================================================================
 
+projects[boron][version] = 1.1
+projects[boron][subdir] = contrib
+
+projects[panels_960gs][version] = 1.2
+projects[panels_960gs][subdir] = contrib
+
+projects[polymorph][version] = 1.x-dev
+projects[polymorph][subdir] = contrib
+
+
 ; === Libraries ======================================================================================================
+
+libraries[jquery.cycle][download][type] = "get"
+libraries[jquery.cycle][download][url] = http://malsup.com/jquery/cycle/release/jquery.cycle.zip?v2.99
+libraries[jquery.cycle][directory_name] = "jquery.cycle"
+libraries[jquery.cycle][destination] = "libraries"
