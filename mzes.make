@@ -46,10 +46,6 @@ projects[views_slideshow][subdir] = "contrib"
 
 ; === Patched projects ===============================================================================================
 
-; DrupalDefaultEntityController warning during OpenPublic installation
-; Patch was committed only to OpenPublic Distro on Mar 2nd
-; http://drupal.org/node/1087244#comment-4204452
-projects[defaultcontent][patch][1087244] = http://drupal.org/files/issues/defaultcontent-1087244-no-prefixes.patch
 
 ; === Contrib projects without official releases =====================================================================
 
