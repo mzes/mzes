@@ -14,9 +14,17 @@ includes[aid] = https://raw.github.com/dwabnitz/aid/dev/aid.make
 ; Essential
 ;;;;;;
 
+; Menu for easier administration of Drupal
+projects[admin_menu][version] = 3.0-rc1
+projects[admin_menu][subdir] = contrib
+
 ; Allows to take full control over how content is displayed using a drag and drop interface. Add custom view modes
 projects[ds][version] = 1.0
 projects[ds][subdir] = contrib
+
+; Drupal internationalization suite
+projects[i18n][version] = 1.0
+projects[i18n][subdir] = contrib
 
 projects[nodequeue][version] = 2.0-alpha1
 projects[nodequeue][subdir] = contrib
