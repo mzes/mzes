@@ -22,10 +22,6 @@ projects[admin_menu][subdir] = contrib
 projects[ds][version] = 1.0
 projects[ds][subdir] = contrib
 
-; Drupal internationalization suite
-projects[i18n][version] = 1.0
-projects[i18n][subdir] = contrib
-
 projects[nodequeue][version] = 2.0-alpha1
 projects[nodequeue][subdir] = contrib
 
@@ -36,14 +32,35 @@ projects[page_title][subdir] = "contrib"
 ;;;;;;
 ; Optional (inclusion in profile to be decided)
 
-projects[taxonomy_menu][version] = 1.x-dev
+projects[conditional_fields][version] = 3.x-dev
+projects[conditional_fields][subdir] = "contrib"
+
+;projects[field_conditional_state][version] = 1.0
+;projects[field_conditional_state][subdir] = "contrib"
+
+projects[l10n_client][version] = 1.0
+projects[l10n_client][subdir] = "contrib"
+
+projects[l10n_update][version] = 1.0-beta2
+projects[l10n_update][subdir] = "contrib"
+
+projects[languageassign][version] = 1.2
+projects[languageassign][subdir] = "contrib"
+
+projects[search_api][version] = 1.x-dev
+projects[search_api][subdir] = "contrib"
+
+projects[search_api_attachments][version] = 1.0
+projects[search_api_attachments][subdir] = "contrib"
+
+projects[search_api_solr][version] = 1.x-dev
+projects[search_api_solr][subdir] = "contrib"
+
+projects[taxonomy_menu][version] = 1.2
 projects[taxonomy_menu][subdir] = "contrib"
 
 projects[views_accordion][version] = 1.x-dev
 projects[views_accordion][subdir] = "contrib"
-
-projects[views_bulk_operations][version] = 3.x-dev
-projects[views_bulk_operations][subdir] = "contrib"
 
 projects[views_slideshow][version] = 3.x-dev
 projects[views_slideshow][subdir] = "contrib"
