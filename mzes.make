@@ -18,10 +18,6 @@ includes[aid] = https://raw.github.com/dwabnitz/aid/dev/aid.make
 projects[admin_menu][version] = 3.0-rc1
 projects[admin_menu][subdir] = contrib
 
-; Allows to take full control over how content is displayed using a drag and drop interface. Add custom view modes
-projects[ds][version] = 1.0
-projects[ds][subdir] = contrib
-
 projects[nodequeue][version] = 2.0-alpha1
 projects[nodequeue][subdir] = contrib
 
@@ -56,13 +52,13 @@ projects[search_api_attachments][subdir] = "contrib"
 projects[search_api_solr][version] = 1.x-dev
 projects[search_api_solr][subdir] = "contrib"
 
-projects[taxonomy_menu][version] = 1.2
-projects[taxonomy_menu][subdir] = "contrib"
+;projects[taxonomy_menu][version] = 1.2
+;projects[taxonomy_menu][subdir] = "contrib"
 
-projects[views_accordion][version] = 1.x-dev
-projects[views_accordion][subdir] = "contrib"
+;projects[views_accordion][version] = 1.x-dev
+;projects[views_accordion][subdir] = "contrib"
 
-projects[views_slideshow][version] = 3.x-dev
+projects[views_slideshow][version] = 3.0
 projects[views_slideshow][subdir] = "contrib"
 
 ;;;;;;
@@ -92,14 +88,14 @@ projects[mzes_features][subdir] = features
 
 ; === Themes =========================================================================================================
 
-projects[boron][version] = 1.1
-projects[boron][subdir] = contrib
+;projects[boron][version] = 1.1
+;projects[boron][subdir] = contrib
 
-projects[panels_960gs][version] = 1.2
-projects[panels_960gs][subdir] = contrib
+;projects[panels_960gs][version] = 1.2
+;projects[panels_960gs][subdir] = contrib
 
-projects[polymorph][version] = 1.x-dev
-projects[polymorph][subdir] = contrib
+;projects[polymorph][version] = 1.x-dev
+;projects[polymorph][subdir] = contrib
 
 
 ; === Libraries ======================================================================================================
