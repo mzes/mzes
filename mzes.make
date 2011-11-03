@@ -10,6 +10,11 @@ includes[aid] = "https://raw.github.com/dwabnitz/aid/dev/aid.make"
 ; Site Building
 ;;;;;;
 
+projects[aid][type] = profile
+projects[aid][download][type] = git
+projects[aid][download][url] = git@github.com:dwabnitz/aid.git
+projects[aid][download][branch] = dev
+
 ;;;;;;
 ; Essential
 ;;;;;;
