@@ -52,11 +52,11 @@ projects[search_api_attachments][subdir] = "contrib"
 projects[search_api_solr][version] = 1.x-dev
 projects[search_api_solr][subdir] = "contrib"
 
-;projects[taxonomy_menu][version] = 1.2
-;projects[taxonomy_menu][subdir] = "contrib"
+projects[taxonomy_menu][version] = 1.2
+projects[taxonomy_menu][subdir] = "contrib"
 
-;projects[views_accordion][version] = 1.x-dev
-;projects[views_accordion][subdir] = "contrib"
+projects[views_accordion][version] = 1.x-dev
+projects[views_accordion][subdir] = "contrib"
 
 projects[views_slideshow][version] = 3.0
 projects[views_slideshow][subdir] = "contrib"
