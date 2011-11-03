@@ -25,11 +25,6 @@ projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal.filter-a
 ; http://drupal.org/node/995156
 projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch
 
-projects[aid][type] = profile
-projects[aid][download][type] = git
-projects[aid][download][url] = git@github.com:dwabnitz/aid.git
-projects[aid][download][branch] = dev
-
 projects[mzes][type] = profile
 projects[mzes][download][type] = git
 projects[mzes][download][url] = git@github.com:mzes/mzes.git
