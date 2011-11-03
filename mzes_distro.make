@@ -10,7 +10,7 @@
 api = 2
 core = 7.x
 
-projects[drupal][type] = core
+projects[drupal][] = core
 projects[drupal][version] = "7.9"
 
 ; Make system directories configurable to allow tests in profiles/[name]/modules to be run.
