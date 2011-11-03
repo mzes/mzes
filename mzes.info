@@ -9,6 +9,9 @@ base = aid
 
 ;; Essentials
 
+dependencies[] = locale
+dependencies[] = translation
+
 ;; Optional
 
 
@@ -16,13 +19,36 @@ base = aid
 
 ;; Essential
 
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = ds_forms
+dependencies[] = ds_search
+
+dependencies[] = i18n
+dependencies[] = i18n_block
+dependencies[] = i18n_field
+dependencies[] = i18n_menu
+dependencies[] = i18n_node
+dependencies[] = i18n_path
+dependencies[] = i18n_redirect
+dependencies[] = i18n_string
+dependencies[] = i18n_sync
+dependencies[] = i18n_taxonomy
+dependencies[] = i18n_translation
+dependencies[] = i18n_variable
+
+dependencies[] = variable
+dependencies[] = variable_admin
+dependencies[] = variable_realm
+dependencies[] = variable_store
+
 ;; Media handling (preferred for media handling but not yet stable)
 
 ;; Optional
 
 dependencies[] = defaultcontent
 dependencies[] = entity
-;dependencies[] = entitycache
+dependencies[] = entitycache
 dependencies[] = entity_token
 
 
@@ -43,7 +69,7 @@ dependencies[] = views_slideshow
 dependencies[] = mzes_biblio
 dependencies[] = mzes_profile
 dependencies[] = mzes_project
-dependencies[] = mzes_panels_displays
+;dependencies[] = mzes_panels_displays
 
 ; Files
 files[] = mzes.profile
@@ -74,29 +100,5 @@ users[test_staff][name] = test_staff
 users[test_staff][mail] = test_staff@example.com
 users[test_staff][roles] = staff
 users[test_staff][status] = 1
-
-users[test_esser][uid] = 6
-users[test_esser][name] = test_esser
-users[test_esser][mail] = test_esser@example.com
-users[test_esser][roles] = staff
-users[test_esser][status] = 1
-
-users[test_becker][uid] = 7
-users[test_becker][name] = test_becker
-users[test_becker][mail] = test_becker@example.com
-users[test_becker][roles] = staff
-users[test_becker][status] = 1
-
-users[test_biedinger][uid] = 8
-users[test_biedinger][name] = test_biedinger
-users[test_biedinger][mail] = test_biedinger@example.com
-users[test_biedinger][roles] = staff
-users[test_biedinger][status] = 1
-
-users[test_klein][uid] = 9
-users[test_klein][name] = test_klein
-users[test_klein][mail] = test_klein@example.com
-users[test_klein][roles] = staff
-users[test_klein][status] = 1
 
 
