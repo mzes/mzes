@@ -2,7 +2,7 @@ core = 7.x
 api = 2
 
 ; AID Distro
-includes[aid] = https://raw.github.com/dwabnitz/aid/dev/aid.make
+includes[aid] = "https://raw.github.com/dwabnitz/aid/dev/aid.make"
 
 ; === Contrib projects with official releases ========================================================================
 
