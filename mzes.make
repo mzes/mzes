@@ -10,11 +10,6 @@ includes[aid] = "https://raw.github.com/dwabnitz/aid/dev/aid.make"
 ; Site Building
 ;;;;;;
 
-projects[aid][type] = profile
-projects[aid][download][type] = git
-projects[aid][download][url] = git@github.com:dwabnitz/aid.git
-projects[aid][download][branch] = dev
-
 ;;;;;;
 ; Essential
 ;;;;;;
@@ -109,15 +104,3 @@ libraries[jquery.cycle][download][type] = "get"
 libraries[jquery.cycle][download][url] = http://malsup.com/jquery/cycle/release/jquery.cycle.zip?v2.99
 libraries[jquery.cycle][directory_name] = "jquery.cycle"
 libraries[jquery.cycle][destination] = "libraries"
-
-
-libraries[plupload][download][type] = "get"
-libraries[plupload][download][url] = "https://github.com/downloads/moxiecode/plupload/plupload_1_5_1_1.zip"
-libraries[plupload][directory_name] = "plupload"
-libraries[plupload][destination] = "libraries"
-
-
-libraries[profiler][download][type] = "get"
-libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz
-libraries[profiler][directory_name] = "profiler"
-libraries[profiler][destination] = "libraries"
