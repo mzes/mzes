@@ -4,5 +4,5 @@
 
 Copy the `mzes_distro.make` file to your system and run with `drush make`
 
-    $ curl -O https://raw.github.com/mzes/mzes/dev/mzes_distro.make
+    $ curl -O https://raw.github.com/mzes/mzes/master/mzes_distro.make
     $ drush make --working-copy mzes_distro.make [directory]
