@@ -291,7 +291,7 @@ projects[variable][version] = 1.1
 projects[variable][subdir] = contrib
 
 ; Augments Views by allowing bulk operations to be executed on the displayed rows. 
-projects[views_bulk_operations][version] = 3.x-beta3
+projects[views_bulk_operations][version] = 3.0-beta3
 projects[views_bulk_operations][subdir] = contrib
 
 ; Can be used to create a slideshow of any content (not just images) that can appear in a View.
