@@ -1,4 +1,4 @@
-; This file describes the core project requirements for AID 7.x. Several
+; This file describes the core project requirements for MZES 7.x. Several
 ; patches against Drupal core and their associated issue numbers have been
 ; included here for reference.
 ;
@@ -28,4 +28,4 @@ projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portab
 projects[mzes][type] = profile
 projects[mzes][download][type] = git
 projects[mzes][download][url] = git@github.com:mzes/mzes.git
-projects[mzes][download][branch] = dev
+projects[mzes][download][branch] = master
